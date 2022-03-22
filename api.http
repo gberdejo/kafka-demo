@@ -1,0 +1,20 @@
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "data":{
+        "name": "Gabriel",
+        "lastname": "Berdejo"
+    }
+}
+###
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+    "data":{
+        "name": "Barrer",
+        "description": "Se usa la escoba"
+    }
+}
